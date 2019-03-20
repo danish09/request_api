@@ -11,8 +11,10 @@ data = response.json()
 print(type(data))
 print(data)
 
+print(response.content)
+
 # Headers is a dictionary
-print(response.headers)
+#print(response.headers)
 
 # Get the content-type from the dictionary.
-print(response.headers["content-type"])
+#print(response.headers["content-type"])
