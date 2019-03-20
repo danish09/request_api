@@ -10,3 +10,9 @@ response = requests.get("http://api.open-notify.org/iss-pass.json", params=param
 data = response.json()
 print(type(data))
 print(data)
+
+# Headers is a dictionary
+print(response.headers)
+
+# Get the content-type from the dictionary.
+print(response.headers["content-type"])
