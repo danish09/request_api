@@ -1,5 +1,7 @@
 import requests
 import json
+
+
 #from pprint import pprint
 
 #setting the parameters
@@ -26,8 +28,21 @@ data = response.json()
 #printing the json converted data
 #print(data)
 
-print(data['data'][0])
+print(data['data']['timings']['Fajr'])
 
 
 #pprint(data)
 #print(response.content)
+
+import json
+with open('/home/siddiq08/python-scripts/prayertimes') as json_file:
+    read_content = json.load(json_file)
+
+read_content
+question_access = read_content['data']
+question_access[0]
+for question_data in question_acess:
+    print(question_data)
+type(question_data)
+replies_access = question_data['timings']
+replies_access
