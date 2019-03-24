@@ -1,0 +1,8 @@
+#ignore jupyter notebook diretories
+.ipynb_checkpoints
+
+#ignore vscode diretories
+.vscode
+
+#ignore jupyter notebook extensions
+.ipynb
