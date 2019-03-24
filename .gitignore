@@ -5,4 +5,4 @@
 .vscode
 
 #ignore jupyter notebook extensions
-*.ipynb
+#*.ipynb
