@@ -4,5 +4,5 @@
 #ignore vscode diretories
 .vscode
 
-#ignore jupyter notebook extensions
-#*.ipynb
+#ignore Unititled jupyter notebook extensions
+Unititled*.ipynb
